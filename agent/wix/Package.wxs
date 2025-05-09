@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Name="XDR Agent Mumbai" 
+           Manufacturer="YourCompany" 
+           Version="1.0.0"
+           UpgradeCode="a9a68333-1a8b-4f5d-9b3a-1b2c3d4e5f6a"
+           Compressed="yes">
+    
+    <MajorUpgrade DowngradeErrorMessage="A newer version is already installed"/>
+    
+    <Feature Id="MainFeature" Title="Main Application" Level="1">
+      <ComponentRef Id="MainExecutable"/>
+    </Feature>
+
+    <StandardDirectory Id="ProgramFilesFolder">
+      <Directory Id="INSTALLFOLDER" Name="XDR Agent Mumbai">
+        <Component Id="MainExecutable" Guid="*">
+          <File Source="../agent.exe" />
+        </Component>
+      </Directory>
+    </StandardDirectory>
+    <Property Id="DISTRIBUTION_ID" Value="dcaeac4c-6a60-4106-83de-87041553b2be" />
+  </Package>
+</Wix>

@@ -1,0 +1,8 @@
+C:\CODE\RAPTORX\backend\agent\wix\bin\Release\project.msi
+C:\CODE\RAPTORX\backend\agent\wix\bin\Release\cab1.cab
+C:\CODE\RAPTORX\backend\agent\wix\bin\Release\project.wixpdb
+C:\CODE\RAPTORX\backend\agent\wix\obj\Release\project.wixproj.CoreCompileInputs.cache
+C:\CODE\RAPTORX\backend\agent\wix\obj\Release\cab1.cab
+C:\CODE\RAPTORX\backend\agent\wix\obj\Release\project.msi
+C:\CODE\RAPTORX\backend\agent\wix\obj\Release\project.wixpdb
+C:\CODE\RAPTORX\backend\agent\wix\obj\Release\project.wixproj.BindTracking-neutral.txt

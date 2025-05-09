@@ -1,0 +1,10 @@
+<Project Sdk="WixToolset.Sdk/4.0.1">
+  <PropertyGroup>
+    <OutputType>Package</OutputType>
+    <Configuration>Release</Configuration>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <WixFile Include="Package.wxs" />
+  </ItemGroup>
+</Project>

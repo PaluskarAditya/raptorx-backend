@@ -1,0 +1,5 @@
+BuiltContentOutput	C:\CODE\RAPTORX\backend\agent\wix\obj\Debug\cab1.cab
+BuiltPdbOutput	C:\CODE\RAPTORX\backend\agent\wix\obj\Debug\project.wixpdb
+BuiltTargetOutput	C:\CODE\RAPTORX\backend\agent\wix\obj\Debug\project.msi
+Input	../agent.exe
+Intermediate	C:\CODE\RAPTORX\backend\agent\wix\obj\Debug\cab1.cab
